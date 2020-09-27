@@ -1,86 +1,107 @@
 <!DOCTYPE html> 
 <html> 
 	<head> 
-		<link rel="shortcut icon" href="https://static.wixstatic.com/media/19ec82_e8ded84dca294aebb1332cc2f9ef1841%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/19ec82_e8ded84dca294aebb1332cc2f9ef1841%7Emv2.png" type="image/png"/>
+		<link rel="shortcut icon" href="https://static.wixstatic.com/media/19ec82_82a7d41b75e249f2819e6fc0685f7981%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/19ec82_82a7d41b75e249f2819e6fc0685f7981%7Emv2.png" type="image/png"/>
 		<title>Palgorithms </title>
+		<meta name = "viewport" content = "width=divice-width, initial-scale = 1">
 		<link href = "main.css" rel = "stylesheet" />
+		<link href='https://fonts.googleapis.com/css?family=Staatliches' rel='stylesheet'>
 		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 		<link href = 'https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	</head>
 		<body>
-			<nav id = "nav">
+			<div class = "navbar">
 				<ul class = "navigation"> 
-					<li class = "active">Palgorithms</li>
-					<li><a href = "#features" style="text-decoration: none;">FEATURES</a></li>
-					<li><a href = "#about us" style="text-decoration: none;">ABOUT</a></li>
-					<li><a href = "#beta sessions" style="text-decoration: none;">BETA</a></li>
-					<li><a href = "#stay in touch" style="text-decoration: none;">CONTACT</a></li>
+					<a href = "#stayintouch" style="text-decoration: none;" >CONTACT</a>
+					<a href = "#beta" style="text-decoration: none;">THE PAL HOUR</a>
+					<a href = "#aboutus" style="text-decoration: none;">ABOUT</a>
+					<a href = "#features" style="text-decoration: none;">FEATURES</a>
+					<a href = "#description" style = "text-decoration: none;" ><span class = "colon">:</span><span class = "logo">Palgorithms</span></a>
 				</ul>
-			</nav>
-		<div style = "text-align:center">
+			</div>
+			<div class = "main" id = "description">
 					<p>A personality-based friendship matching app guaranteed to find you the best compatible matches. </p>
-						<p><a href = "#features" style="text-decoration: none;">LEARN MORE</a> </p>
+						<p><a href = "#features" style="text-decoration: none;"><span class = "link">LEARN MORE</span></a> </p>
+			</div>
+			<div class = "container">
+				<img src = "pictures/iphone.png" class = "center" style="width:400px;height:600px">
+			</div>
 				<!--</div>-->	
-			<div class = "main" id = "features">
-			<h1>OUR FEATURES</h1>
-				<table> 
-					<thead>
-						<tr> <!--adds rows to the table-->
-							<th><h2>01</h2></th>
-							<th><h2>02</h2></th>
-							<th><h2>03</h2></th>
-						</tr>
-					</thead>
-					<tbody> 
-						<tr> 
-							<td><img src = "pictures/algorithm.PNG"></td>
-							<td><img src = "pictures/compatible.PNG"> </td>
-							<td><img src = "pictures/icebreaker.PNG"></td>
-						</tr>
-						<tr>
-							<td><h3>UNIQUE ALGORITHM</h3></td>
-							<td><h3>COMPATIBILITY CHECK</h3></td>
-							<td><h3>CUSTOM ICEBREAKERS</h3></td>
-						</tr>
-						<tr>
-							<td>We suggest matches based on both common interests and Myers-Briggs personality types. As a result, our matches work on paper and in practice.</td>
-							<td>We tell you why you were matched with each potential friend. You'll know right away what interests you have in common and why we think you'd get along!</td>
-							<td>Our icebreakers are tailored towards you and your matches' similarities, so you can worry less about getting the conversation rolling.</td>
-						</tr>
-					</tbody>
-				</table>
+				<div class = "main" id = "features">
+					<h1>OUR FEATURES</h1>
+					<table> 
+						<thead>
+							<tr> <!--adds rows to the table-->
+								<th><h2>01</h2></th>
+								<th><h2>02</h2></th>
+								<th><h2>03</h2></th>
+							</tr>
+						</thead>
+						<tbody> 
+							<tr> 
+								<td><img src = "pictures/algorithm.PNG"></td>
+								<td><img src = "pictures/compatible.PNG"> </td>
+								<td><img src = "pictures/icebreaker.PNG"></td>
+							</tr>
+							<tr>
+								<td><h3>UNIQUE ALGORITHM</h3></td>
+								<td><h3>COMPATIBILITY CHECK</h3></td>
+								<td><h3>CUSTOM ICEBREAKERS</h3></td>
+							</tr>
+							<tr>
+								<td>We suggest matches based on both common interests and Myers-Briggs personality types. As a result, our matches work on paper and in practice.</td>
+								<td>We tell you why you were matched with each potential friend. You'll know right away what interests you have in common and why we think you'd get along!</td>
+								<td>Our icebreakers are tailored towards you and your matches' similarities, so you can worry less about getting the conversation rolling.</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			<div class = "main" id = "beta">
+				<div class = main id = "box">
+					<div class = main id = "content">
+						<h1>THE PAL HOUR</h1>
+							<p>Come to our <strong>virtual socials!</strong> Attendees are <strong>paired with fellow students</strong> and are assigned customized icebreaker questions to answer together. This helps us polish our algorithm and helps you make friends! If you're interested in signing up (and potentially meeting some new pals), please <strong>fill out this sign-up form!</strong> 
+							</p>
+							<button>
+							<a href = "https://docs.google.com/forms/d/e/1FAIpQLSc_KVkyx6aqtrjOjyrrKnzPsztJRF-67xcVlG_gNLtEAZvEOg/viewform" target="_blank" style="text-decoration: none;">SIGN ME UP</a>
+							</button>
+					</div>
+				</div>
 			</div>
-			<div class = "main" id = "about us">
-			<h1>ABOUT US</h1>
-				<p>We started off as a participant team in BruinLabs, an 8-week entrepreneurship program hosted by UCLA. After winning first place on demo day, we decided to move forward with our idea and turn our algorithm into a reality. We hope we can help students like us feel more connected during (and after!) these trying times.</p>
+			<div class = "main" id = "aboutus">
+				<br><h1><span class = "intro">ABOUT US</span></h1>
+					<p>We started off as a participant team in BruinLabs, an 8-week entrepreneurship program hosted by UCLA. After winning first place on demo day, we decided to move forward with our idea and turn our algorithm into a reality. We hope we can help students like us feel more connected during (and after!) these trying times.</p>
+				</div>
+			<div class = "main" id = "stayintouch">
+			<div class = "w3-container"> 
 			</div>
-		</div>
-			<div class = "main" id = "beta sessions">
-			<h1>BETA SESSIONS</h1>
-				<p>We host beta sessions to polish our matching algorithm and other app features. Our beta testers are paired with fellow volunteers and are assigned customized icebreaker questions to answer together. If you're interested in signing up (and potentially meeting some new friends), please fill out this Google form!</p>
-				<button>
-				<a href = "https://docs.google.com/forms/d/e/1FAIpQLSc_KVkyx6aqtrjOjyrrKnzPsztJRF-67xcVlG_gNLtEAZvEOg/viewform" target="_blank" style="text-decoration: none;">SIGN ME UP</a>
-				</button>
-				</form>
-			</div>
-			<div class =  "main" id = "stay in touch"> 
-				<h1>MEET THE TEAM </h1>
-				<!---
-				<span class = "dot"></span>
-				<span class = "dot"></span>
-				<span class = "dot"></span>
-				<br></br>
-				<span class = "dot"></span>
-				<span class = "dot"></span>
-				<span class = "dot"></span>
-				<span class = "dot"></span>
-				-->
+					<div class = "w3-row">
+						<div class = "w3-col s6 w3-grey w3-center">
+					<h1>MEET THE TEAM </h1>
+					
+					<span class = "dot"></span>
+					<span class = "dot"></span>
+					<span class = "dot"></span>
+					<br></br>
+					<span class = "dot"></span>
+					<span class = "dot"></span>
+					<span class = "dot"></span>
+					<span class = "dot"></span>
 				
-					<p>Sign up for beta testing information and development updates.</p>
-					<br>
-					<input id = "mail" name = "mail" type = "email"> 
-					<br> 
-					<input type = "submit" value = "Submit"> 
+						</div>
+						<div class = "w3-col s6 w3-blue w3-center">
+							<p>Sign up for development updates.</p>
+							<br>
+							<input id = "mail" name = "mail" type = "email"> 
+							<br> 
+							<input type = "submit" value = "Submit"> 
+						</div>
+				</div>
+			</div>
+			<div id = "socials" class = "center">
+				<a href = "https://www.facebook.com/palgorithms" target="_blank"> <img src = "pictures/facebook.png" style="width:50px;height:50px"> </a>
+				<a href = "https://www.instagram.com/palgorithmsapp/" target="_blank"> <img src = "pictures/instagram.png" style="width:50px;height:50px" ></a>
 			</div>
 
 				
