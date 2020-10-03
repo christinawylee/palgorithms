@@ -101,7 +101,10 @@ td {
     height: 600px; 
 }
 
-
+.fade {
+    animation-name: fade; 
+    animation-duration: 2s; 
+}
 
 .center {
     display: block;
@@ -158,6 +161,64 @@ h1 {
     color: #3F403F; 
 }
 
+.container {
+    text-align: center; 
+    position: center; 
+}
+.mySlides { 
+    position: center; 
+    
+}
+
+button {
+    display: inline-block; 
+    border-radius: 12px; 
+    padding: 15px; 
+    font-size: 50px; 
+    font-weight: 600; 
+    transition-duration: 0.4s;
+    border: none; 
+}
+.calendar { 
+    background-color: #E5E5E5; 
+    color: #08B9FF; 
+}
+.calendar:hover {
+    color:  #FF9E80;
+}
+.palhour {
+    background-color: #08B9FF;
+    color: white; 
+}
+.palhour:hover {
+background-color: #FF9E80; 
+}
+.dot {
+    height: 80px;
+    width: 80px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .cell{
+    margin-left: 20px;
+    display: inline-block;
+    font-size: 6px;
+    }
+.development {
+    font-size: 35px; 
+    font: normal normal normal futura-lt-w01-light,sans-serif; 
+}
+.emphasis {
+text-decoration: underline; 
+font-size: 18px; 
+font-family: montserrat,sans-serif;
+}
+input {
+    border-radius: 12px; 
+    padding: 14px 35px; 
+    border: none; 
+}
 /*
 div.center {
     display:block;
